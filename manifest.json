@@ -1,15 +1,14 @@
 {
-    "name": "MY First Extension",
-    "description": "Shows a menu item",
-    "version": "0.3",
-    "permissions": ["contextMenus", "activeTab"],
+    "name": "Bulk Image Downloader",
+    "description": "download every image on a web page",
+    "version": "0.1",
     "background": {
         "scripts": ["background.js"]
     },
     "content_scripts": [
         {
-            "js": ["index.js"],
-            "matches": ["*://www.google.com/*"]
+            "js": ["content.js"],
+            "matches": ["*://www.google.com/*"]   
         }
     ],
     "manifest_version": 2
