@@ -1,2 +1,6 @@
 # image_downloader
-[] 111
+{
+	auther_name: eytangut1
+	programing_langs: js, html, css, json
+	
+}
