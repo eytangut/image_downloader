@@ -8,7 +8,8 @@
     },
     "content_scripts": [
         {
-            "js": ["index.js"]
+            "js": ["index.js"],
+            "matches": ["*://www.google.com/*"]
         }
     ],
     "manifest_version": 2
