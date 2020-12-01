@@ -8,5 +8,5 @@ console.log("the dom is" + dom.innerHTML)
 var links = dom.getElementsByClassName("r");
 for(let i = 0; i<links.length; i++){
     let titles = links[i].getElementsByTagName("h3");
-    console.log("titles is:" + titles[0])
+    console.log("title is:" + titles[0]);
 }
